@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #E5DE19;
+}
+
+.QLabel:hover, QLineEdit:hover {
+    background-color: #CE621B;
+    color: #E5DE19;
+}
+
+QWidget#points_display QLabel {
+    margin: 10px 10px 10px 10px;
+    border-radius: 10px;
+}
+
+QLabel {
+    color: #CE621B;
+    font-size: 20px;
+    background-color: #3D1407;
+    border-radius: 10px;
+}
+
+QLabel#game_title {
+    border-radius: 25px;
+    font-size: 40px;
+}
+
+QLabel#final_number_label {
+    font-size: 35px;
+}
+
+QLabel#right_guesses_label {
+    color: green;
+}
+
+QLabel#wrong_guesses_label {
+    color: red;
+}
+
+QLabel#number_label_correct, QLabel#points_label_positive {
+    margin: 0px 160px 0px 160px;
+    border: 2px solid green;
+    border-radius: 20px;
+}
+
+QLabel#number_label_wrong, QLabel#points_label_negative {
+    margin: 0px 160px 0px 160px;
+    border: 2px solid red;
+    border-radius: 20px;
+}
+
+QLineEdit {
+    color: #CE621B;
+    background-color: #3D1407;
+    border: 0;
+    border-radius: 5px;
+    font-size: 20px;
+}
