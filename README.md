@@ -1,4 +1,4 @@
-# Guess Random NUmber App-
+# Guess Random Number App-
 Jogo de adivinhação de números aleatórios feito com python numa interface gráfica
 
 ## Apresentação:
